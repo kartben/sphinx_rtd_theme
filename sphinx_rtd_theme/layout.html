@@ -163,7 +163,7 @@
 
         {%- block navigation %}
         {#- Translators: This is an ARIA section label for the main navigation menu -#}
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="{{ _('Navigation menu') }}">
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="{{ _('Navigation menu') }}" data-nosnippet>
           {%- block menu %}
             {%- set toctree = toctree(maxdepth=theme_navigation_depth|int,
                                       collapse=theme_collapse_navigation|tobool,
